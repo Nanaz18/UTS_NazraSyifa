@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "89018961137",
+    "project_id": "uts-nazrasyifa",
+    "storage_bucket": "uts-nazrasyifa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89018961137:android:1c267caf35d1e2752a6d50",
+        "android_client_info": {
+          "package_name": "com.example.uts_nazrasyifa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89018961137-6pqes0pdnl5l9dr48tphfs9qrn387bif.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD37F2BJLXoj82H1qQySMmmAiDUy7npxgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89018961137-6pqes0pdnl5l9dr48tphfs9qrn387bif.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

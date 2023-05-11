@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:context=".SplashActivity"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logochat"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WELCOME !"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="-70dp"
+            android:textColor="@color/purple_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please Fill In Your Data Correctly."
+            android:gravity="center"
+            android:textColor="@color/abu"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded2"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:id="@+id/alamatemail"
+            android:layout_marginTop="40dp"
+            android:hint="Masukan Alamat E-mail"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded2"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:inputType="textPassword"
+            android:id="@+id/pass"
+            android:hint="Masukan Password E-mail"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded2"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:inputType="textPassword"
+            android:id="@+id/retypeemail"
+            android:hint="Masukan Ulang Password E-mail"/>
+
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:text="SIGN UP"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/purple_700"
+            android:id="@+id/btnregister"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
